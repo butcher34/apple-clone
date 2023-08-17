@@ -1,0 +1,380 @@
+header{
+    position: sticky !important;
+    top: 0px;
+    z-index: 9;
+}
+nav{
+    background-color: rgba(22, 22, 23, 1);
+    padding-left: 14rem!important;
+    width: 100%;
+    min-width: 320px;
+    height: 48px;
+    max-height: 44px;
+    font-size: 17px;
+}
+nav a{
+    color: rgba(255, 255, 255, .8) !important;
+}
+nav a:hover{
+    color: #FFFFFF !important;
+}
+svg{
+    fill:#E8E8ED;
+}
+nav li{
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    padding-top: 1rem;
+    margin-right: 2rem;
+
+}
+.svgNav{
+    padding-top: 0.3rem;
+}
+/**/
+.navbar ul > li {
+    list-style-type: none;
+  }
+  
+.navbar ul .hidden-col {
+    max-height: 0px;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: o px;
+    transition: all 0.5s ease;
+    background: rgb(22 22 23 / 100%);
+    position: fixed;
+    left: 0px;
+    top: 39px;
+    display: flex;
+    overflow-y: hidden;
+    color: rgba(255, 255, 255, .8);
+    padding-left: max(209px,env(safe-area-inset-left));
+    padding-right: max(22px,env(safe-area-inset-right));
+ 
+  }
+  
+.navbar ul li:hover > .hidden-col {
+    max-height: calc(100% - 44px); 
+    padding-top: 40px;
+    padding-bottom: 84px;
+  }
+.hidden-col li:hover{
+    color: #FFFFFF;
+}
+.hidden-col h2{
+    color: rgb(134, 134, 139);
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -.01em;
+}
+.hidden-col li{
+    color: rgba(255, 255, 255, .8);
+}
+.hidden-col li:hover{
+    color: #FFFFFF;
+}
+.ul1 li{
+    font-size: 24px;
+    line-height: 1.1666666667;
+    font-weight: 600;
+    letter-spacing: .009em;
+}
+/**/
+.sec1 p{
+    font-size: 14px;
+    display: inline-block;
+    padding: 12px 0;
+}
+.sec1 a{
+    color: #06c !important;
+}
+.sec1 a:hover{
+    text-decoration: underline !important;
+    
+}
+/**/
+.sec2Img{
+    width: 100%;
+    height: 624px;
+    padding-top: 5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(https://www.apple.com/v/home/az/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg);
+}
+.sec2Img h2, .sec3Img h2, .sec4Img img{
+    color: #f5f5f7;
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    margin: 0% 37%;
+}
+.sec2Img p,.sec3Img h3,.sec4Img h3{
+    margin: 2% 44%;
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+    color: #f5f5f7;
+
+}
+.sec2 .row, .sec3 .row, .sec4 .row{
+    margin: 0% 0% 0% 40%;
+}
+.sec2 a,.sec3 a,.sec4 a,.sec5 a{
+    color: #2997ff;
+    text-decoration: none;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    flex: 0 0 auto;
+    width: 20%;
+}
+.sec2 a:hover,.sec3 a:hover,.sec4 a:hover,.sec5 a:hover{
+    text-decoration: underline;
+}
+/**/
+.sec3Img{
+    padding-top: 4%;
+    width: 100%;
+    height: 624px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(https://www.apple.com/v/home/az/images/heroes/iphone-14/hero_iphone14_yellow__eun20sn4imi6_large.jpg);
+}
+.sec3Img h2{
+    color: black;
+    margin: 0% 0% 0% 41%;
+}
+.sec3Img h3{
+    color: black;
+    margin: 1% 44%;
+}
+/**/
+.sec4Img{
+    padding-top: 4%;
+    width: 100%;
+    height: 624px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(https://www.apple.com/v/home/az/images/heroes/apple-watch-series-8/hero_apple_watch_series_8_spring__b1y8wb7xjc9y_large.jpg);
+}
+.sec4 img{
+    margin-left: 43%;
+}
+.sec4Img h2{
+   
+    margin: 0% 0% 0% 41%;
+}
+.sec4Img h3{
+
+    margin: 2% 40%;
+}
+/**/
+.sec5 .row{
+    justify-content: center;
+}
+.sec5 .sec5Div{
+    padding-top: 4%; 
+    height: 624px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(https://www.apple.com/v/home/az/images/promos/iphone-tradein/iphone_tradein_promo__d5au3rkw5kuq_large.jpg);
+}
+.sec5 .imgRow {
+    margin-right: 0px !important;
+}
+.sec5 img{
+    margin-left: 33%;
+}
+.sec5 h3 , .sec5 h5{
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+    margin: 2% 21%;
+    text-align: center;
+}
+.sec5 a{
+   
+    width: auto;
+    
+}
+
+.sec5 .sec5Div2{
+    padding-top: 28%;
+    color: #f5f5f7;
+    background-image: url(https://www.apple.com/v/home/az/images/promos/wwdc23-announce/promo_wwdc23__b68ptht3mro2_large.jpg);
+}
+
+.sec5Div{
+    flex: 0 0 auto;
+    width: 48%;
+    margin: -1% 0.5% -1% 1%;
+}
+.sec5 .sec5Div3{
+  
+    background-image: url(https://www.apple.com/v/home/az/images/promos/ipad/promo_ipad__fioegapg12qi_large.jpg);
+}
+.sec5 .sec5Div3 h4,.sec5 .sec5Div4 h4{
+    text-align: center;
+    font-size: 65px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+}
+.sec5 .sec5Div4{
+   color: white;
+    background-image: url(https://www.apple.com/v/home/az/images/promos/macbook-pro-14-and-16/promo_mbp__ek7p477bkp6q_large.jpg);
+}
+.sec5 .sec5Div5{
+
+     background-image: url(https://www.apple.com/v/home/az/images/promos/environment/hero_ipad_promo__dllyenmh59g2_large.jpg);
+ }
+.sec5 .sec5Div5 img{
+    margin-left: 26%;
+ }
+ .sec5 .sec5Div6{
+
+    background-image: url(https://www.apple.com/v/home/az/images/promos/apple-card/tile__cauwwcyyn9hy_large.jpg);
+}
+
+.sec5 .sec5Div6 h3{
+    margin: 2% 26%;
+}
+.sec5 .sec5Div6 img {
+    margin-left: 40%;
+}
+/**/
+.carousel button{
+    background-color: #e9e4ed;
+    width: 6%;
+}
+.carousel-indicators button{
+    width: 10px !important;
+    height: 10px !important;
+    margin-right: 20px !important;
+    margin-left: 0px !important;
+    border-radius: 81px !important; 
+    border-top: 0px !important;
+    border-bottom: 0px !important;
+
+}
+.carousel-item button{
+    width: auto;
+    height: 10%;
+    border-radius: 980px;
+    text-align: center;
+    min-width: 26px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    --sk-button-margin-horizontal: 18px;
+    --sk-button-margin-vertical: 18px;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 700;
+    background-color: #fff;
+    display: inline-block;
+}
+.carousel-item p{
+    display: inline;
+    font-size: 20px;
+    line-height: 1.1;
+    font-weight: 400;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-left: 40px;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.6);
+}    
+.carousel-caption{
+    right: 35%;
+    bottom: 3.25rem;
+    left: 0%;
+}
+.genre{
+    font-weight: 700;
+}
+/**/
+footer{
+    padding: 4% 17% !important;
+    background: #f5f5f7;
+    border-color: #d2d2d7;
+    color: #6e6e73;
+    min-width: 1024px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+footer h2{
+    font-size: 12px;
+    line-height: 1.33337;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 600;
+    margin-right: 20px;
+    margin-bottom: 0.8em;
+}
+ul{
+    list-style: none;
+    padding-left: 0rem;
+}
+li, footer a,footer p ,.ftcountry{
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-bottom: 0.8em;
+}
+footer a{
+    color: #06c;
+}
+li:hover{
+    text-decoration: underline;
+}
+.footer-col{
+    width: 20%;
+}
+.fta{
+    width: 41%;
+}
+.fta li{
+    border-right: 1px solid;
+    margin-right: 0px;
+    display: inline-block;
+    margin-top: 5px;
+    padding-right: 7px;
+    padding-top: 6px;
+}
+.fta a{
+    color:#424245 ;
+    text-decoration: none;
+   
+}
+footer p{
+    padding-top: 6px;
+    display: inline;
+}
+.ftp{
+    width: 29.666667%;
+}
+.ftcountry{
+    width: 10%;
+    margin-left: 11rem;
+}
+.ftcountry a{
+    color:#424245 ;
+    text-decoration: none;
+}
